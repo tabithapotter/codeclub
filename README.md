@@ -5,6 +5,7 @@ This directory includes:
 
 * README.md
 * images folder
+* docs folder containg the website
 * week1 folder
 * week2 folder
 * week3 folder
