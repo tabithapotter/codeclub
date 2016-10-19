@@ -13,20 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Leigh Hackspace CodeClub	
+title: Leigh Hackspace CodeClub
 email: CodeClub[at]leighhack.org
 description: > # this means to ignore newlines until "baseurl:"
   Leigh Hackspace Website for Code Club / Code Up Information.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: " " # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: leigh_hackspace
 github_username:  Leigh-hackspace
 
 # Build settings
 markdown: kramdown
 theme: minima
+
 gems:
   - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
